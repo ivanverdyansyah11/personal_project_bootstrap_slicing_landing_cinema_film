@@ -1,0 +1,56 @@
+.card-film .film-image {
+    border-radius: 4px;
+    aspect-ratio: 3.2/4;
+    object-fit: cover;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.card-film h6 {
+    font-size: 0.913rem;
+    margin-bottom: 6px;
+}
+
+.card-film p {
+    font-size: 0.813rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+.card-film div span {
+    font-size: 0.813rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.card-film div span:last-child {
+    color: rgba(var(--light-color), 0.62);
+}
+
+.card-film .genre-list button {
+    padding: 6px 12px;
+    border-radius: 9999px;
+    background-color: rgba(var(--dark-secondary-color), 1);
+    font-size: 0.75rem;
+    outline: none;
+    color: rgba(var(--light-color), 1);
+    border: 1px solid rgba(var(--light-color), 0.06);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 50%;
+    bottom: -32px !important;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 3px !important;
+    border-radius: 9999px !important;
+    background-color: rgba(var(--light-color), 0.24) !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 30px !important;
+    background-color: rgba(var(--light-color), 0.32) !important;
+}
