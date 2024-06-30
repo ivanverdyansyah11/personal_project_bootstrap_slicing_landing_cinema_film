@@ -1,0 +1,110 @@
+section.hero,
+section.hero .container {
+    height: 100vh;
+}
+
+section.hero .headline {
+    margin-top: 122px;
+    margin-bottom: 16px;
+}
+
+section.hero .wrapper-detail {
+    margin-bottom: 24px;
+}
+
+section.hero .wrapper-detail .line {
+    width: 1px;
+    height: 18px;
+    background-color: rgba(var(--light-color), 0.32);
+}
+
+section.hero .wrapper-detail h6 {
+    font-size: 0.845rem;
+}
+
+section.hero .wrapper-detail h6 span {
+    font-size: 0.845rem;
+    color: rgba(var(--light-color), 1);
+}
+
+section.hero .wrapper-detail h6 span:last-child {
+    color: rgba(var(--light-color), 0.62);
+}
+
+section.hero .description-group {
+    height: 140px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section.hero .box-shadow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgb(32,35,45);
+    background: linear-gradient(0deg, rgba(var(--dark-color), 1) 0%, rgba(var(--dark-color), 0) 100%);
+}
+
+section.hero .description-group::-webkit-scrollbar {
+    display: none;
+}
+
+section.hero .thumbnail-film {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 45%;
+}
+
+section.hero .thumbnail-film .thumbnail-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+section.hero .thumbnail-film .box-shadow {
+    height: 240px;
+}
+
+section.hero .thumbnail-film .box-shadow-left {
+    position: absolute;
+    width: 240px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(var(--dark-color), 1) 0%, rgba(var(--dark-color), 0) 100%);
+}
+
+section.hero .swiperHero {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+section.hero .card-film {
+    cursor: pointer;
+}
+
+section.hero .animation {
+    animation: animationPopup 0.4s;
+}
+
+@keyframes animationPopup {
+    0% {
+        opacity: 0;
+        transform: translateY(6px);
+    } 100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
