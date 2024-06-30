@@ -1,0 +1,26 @@
+section.genre .card-genre {
+    padding: 20px 16px;
+    border-radius: 4px;
+    background-color: rgba(var(--dark-secondary-color), 1);
+    border: 1px solid rgba(var(--light-color), 0.06);
+}
+
+section.genre .card-genre h5 {
+    font-size: 1.5rem;
+    font-family: var(--urbanist-bold);
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px solid rgba(var(--primary-color), 1);
+}
+
+section.genre .card-genre h6 {
+    font-size: 0.913rem;
+}
+
+section.genre .card-genre p {
+    font-size: 0.813rem;
+    color: rgba(var(--light-color), 0.62);
+}
