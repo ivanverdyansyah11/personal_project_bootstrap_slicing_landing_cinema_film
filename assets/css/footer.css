@@ -1,0 +1,50 @@
+footer.footer {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+footer.footer .footer-brand {
+    margin-bottom: 16px;
+}
+
+footer.footer .description {
+    font-size: 0.875rem;
+    margin-bottom: 24px;
+}
+
+footer.footer .footer-social-media a {
+    width: 38px;
+    height: 38px;
+    background-color: rgba(var(--dark-secondary-color), 1);
+    border: 1px solid rgba(var(--light-color), 0.12);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.footer .footer-social-media a:hover {
+    background-color: rgba(var(--light-color), 0.12);
+}
+
+footer.footer .footer-title {
+    font-size: 1.125rem;
+    font-family: var(--urbanist-semibold);
+}
+
+footer.footer .footer-item {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+footer.footer .footer-item:hover {
+    color: rgba(var(--light-color), 1);
+}
+
+footer.footer .copyright {
+    font-size: 0.813rem;
+    color: rgba(var(--light-color), 0.42);
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+    padding-top: 20px;
+    margin-top: 100px;
+}
