@@ -1,0 +1,33 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(var(--dark-color), 1);
+    z-index: 9 !important;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 800ms !important;
+}
+
+.topbar.active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 800ms !important;
+}
+
+.topbar .topbar-link {
+    gap: 20px;
+}
+
+.topbar .topbar-link a {
+    font-size: 2rem;
+    font-family: var(--urbanist-semibold);
+    color: rgba(var(--light-color), 0.62);
+}
+
+.topbar .topbar-link a:hover,
+.topbar .topbar-link a.active {
+    color: rgba(var(--light-color), 1);
+}
