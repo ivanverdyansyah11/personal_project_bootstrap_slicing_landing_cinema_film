@@ -1,0 +1,23 @@
+section.adventage .title {
+    margin-bottom: 16px;
+}
+
+section.adventage .description {
+    margin-bottom: 32px;
+}
+
+section.adventage .card-adventage {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgba(var(--dark-secondary-color), 1);
+    border: 1px solid rgba(var(--light-color), 0.06);
+}
+
+section.adventage .card-adventage h3 {
+    margin-bottom: 2px;
+}
+
+section.adventage .card-adventage p {
+    font-size: 0.875rem;
+    color: rgba(var(--primary-color), 1);
+}
