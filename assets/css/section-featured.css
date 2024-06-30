@@ -1,0 +1,30 @@
+section.featured .card-featured {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgba(var(--dark-secondary-color), 1);
+    border: 1px solid rgba(var(--light-color), 0.06);
+}
+
+section.featured .card-featured h6 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+section.featured .card-featured p {
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+    color: rgba(var(--light-color), 0.62);
+}
+
+section.featured .card-featured button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 0.875rem;
+    color: rgba(var(--primary-color), 1);
+}
+
+section.featured .card-featured button:hover {
+    text-decoration: underline;
+}
