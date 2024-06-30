@@ -52,4 +52,8 @@
     .content-gap {
         margin-top: 32px;
     }
+
+    section.cta {
+        padding: 24px;
+    }
 }
